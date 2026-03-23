@@ -30,17 +30,17 @@ No more confusion at the dog park!
 
 1️⃣ Clone the repository
 
-  git clone https://github.com/SenecaOS/DogRegister.git
+ > git clone https://github.com/SenecaOS/DogRegister.git
 
 2️⃣Navigate to file 
 
-cd DogRegister
+> cd DogRegister
 
 3️⃣ Compile and run the project
 
-  javac src/*.java
+ > javac src/*.java
 
-  java -cp src DogRegister
+ > java -cp src DogRegister
 
 ---
 
