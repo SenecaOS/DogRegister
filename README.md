@@ -37,19 +37,28 @@ javac src/*.java
 java -cp src DogRegister
 
 ⚠️ Replace DogRegister with the name of the class that contains public static void main(String[] args) if it’s different.
+---
 
-🧠 How It Works
+# 🧠 How It Works
 
 Each dog is linked to an owner using a simple relationship model:
 
 Dog: has a name, breed, age, tail length, and weight
+
 Owner: has a name and a list of dogs they currently own
+
 Each dog is assigned to one owner
 
 This structure allows you to easily manage, search, and update dog ownership records.
 
-🌱 Future Improvements
+---
+
+# 🌱 Future Improvements
+
 Support for multiple owners per dog
+
 Graphical interface (desktop or web)
+
 Database integration for persistent storage
+
 Authentication and user accounts
