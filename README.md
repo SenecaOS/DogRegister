@@ -40,7 +40,7 @@ No more confusion at the dog park!
 3️⃣ Compile and run the project
 
 ```bash
-javac src/*.java
+javac *.java
 java -cp src DogRegister
 ```
 ---
