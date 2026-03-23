@@ -28,7 +28,6 @@ git clone https://github.com/SenecaOS/DogRegister
    
 cd DogRegister
 javac src/*.java
-# Run the main class
 java -cp src DogRegister
 
 🧠 How It Works
