@@ -29,19 +29,20 @@ No more confusion at the dog park!
 # 🚀 Compile and Run
 
 1️⃣ Clone the repository
-
- > git clone https://github.com/SenecaOS/DogRegister.git
+```bash
+ git clone https://github.com/SenecaOS/DogRegister.git
+```
 
 2️⃣Navigate to file 
-
-> cd DogRegister
-
+```bash
+ cd DogRegister
+```
 3️⃣ Compile and run the project
 
- > javac src/*.java
-
- > java -cp src DogRegister
-
+```bash
+javac src/*.java
+java -cp src DogRegister
+```
 ---
 
 # 🧠 How It Works
