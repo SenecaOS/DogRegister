@@ -32,9 +32,11 @@ No more confusion at the dog park!
 
   git clone https://github.com/SenecaOS/DogRegister.git
 
-  cd DogRegister
+2️⃣Navigate to file 
 
-2️⃣ Compile and run the project
+cd DogRegister
+
+3️⃣ Compile and run the project
 
   javac src/*.java
 
