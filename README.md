@@ -30,18 +30,16 @@ No more confusion at the dog park!
 
 1️⃣ Clone the repository
 
-git clone https://github.com/SenecaOS/DogRegister.git
+  git clone https://github.com/SenecaOS/DogRegister.git
 
-cd DogRegister
+  cd DogRegister
 
 2️⃣ Compile and run the project
 
-javac src/*.java
+  javac src/*.java
 
-# Run the main class
-java -cp src DogRegister
+  java -cp src DogRegister
 
-⚠️ Replace DogRegister with the name of the class that contains public static void main(String[] args) if it’s different.
 ---
 
 # 🧠 How It Works
