@@ -33,7 +33,9 @@ git clone https://github.com/SenecaOS/DogRegister
 2. Run the project
    
 cd DogRegister
+
 javac src/*.java
+
 java -cp src DogRegister
 
 🧠 How It Works
