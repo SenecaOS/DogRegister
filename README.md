@@ -28,22 +28,22 @@ No more confusion at the dog park.
 
 1. Clone the repository
    
-   git clone https://github.com/SenecaOS/DogRegister
+      git clone https://github.com/SenecaOS/DogRegister
 
 2. Run the project
    
-   cd DogRegister
+      cd DogRegister
 
-   javac src/*.java
+      javac src/*.java
 
-   java -cp src DogRegister
+      java -cp src DogRegister
 
 🧠 How It Works:
 
-   Each dog is linked to an owner using a simple relationship model:
+      Each dog is linked to an owner using a simple relationship model:
 
-   A Dog has a name, breed, age, tail length and weight
+      A Dog has a name, breed, age, tail length and weight
    
-   An Owner has a name and a list associated with the dogs in its current ownership
+      An Owner has a name and a list associated with the dogs in its current ownership
    
-   Each dog is assigned to one owner
+      Each dog is assigned to one owner
