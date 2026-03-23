@@ -4,46 +4,52 @@ A simple, reliable system for tracking which dogs belong to whom — because eve
 
 📌 Overview
 
-This Dog Register project is a lightweight project designed to keep records of dog ownership. Whether you're managing a small kennel, a neighborhood registry, or just organizing pet data, this tool helps you:
+Dog Register is a lightweight project for keeping records of dog ownership. Whether you're managing a small kennel, a neighborhood registry, or just organizing pet data, this tool helps you:
 
-Track dogs and their owners
-Maintain clear ownership records
-Quickly look up who owns which dog
+🐾 Track dogs and their owners
+📋 Maintain clear ownership records
+🔍 Quickly look up who owns which dog
 
-No more confusion at the dog park.
+No more confusion at the dog park!
 
 ✨ Features
-
 🐕 Add new dogs to the registry
-
 👤 Assign owners to each dog
-
-🔍 Search for dogs or owners
-
-📋 View all registered dogs and their owners
-
+🔎 Search for dogs or owners
+📂 View all registered dogs and their owners
 🛠 Simple and extendable structure
+🚀 Compile and Run
+1️⃣ Clone the repository
+git clone https://github.com/SenecaOS/DogRegister.git
+cd DogRegister
+2️⃣ Compile and run the project
+Windows
+# Compile all Java files in src
+javac src\*.java
 
-🚀 Compile and run:
+# Run the main class
+java -cp src DogRegister
+Linux / macOS
+# Compile all Java files in src
+javac src/*.java
 
-1. Clone the repository
-   
-      git clone https://github.com/SenecaOS/DogRegister
+# Run the main class
+java -cp src DogRegister
 
-2. Run the project
-   
-      cd DogRegister
+⚠️ Replace DogRegister with the name of the class that contains public static void main(String[] args) if it’s different.
 
-      javac src/*.java
+🧠 How It Works
 
-      java -cp src DogRegister
+Each dog is linked to an owner using a simple relationship model:
 
-🧠 How It Works:
+Dog: has a name, breed, age, tail length, and weight
+Owner: has a name and a list of dogs they currently own
+Each dog is assigned to one owner
 
-      Each dog is linked to an owner using a simple relationship model:
+This structure allows you to easily manage, search, and update dog ownership records.
 
-      A Dog has a name, breed, age, tail length and weight
-   
-      An Owner has a name and a list associated with the dogs in its current ownership
-   
-      Each dog is assigned to one owner
+🌱 Future Improvements
+Support for multiple owners per dog
+Graphical interface (desktop or web)
+Database integration for persistent storage
+Authentication and user accounts
