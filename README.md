@@ -4,7 +4,7 @@ A simple, reliable system for tracking which dogs belong to whom — because eve
 
 📌 Overview
 
-Dog Register is a lightweight project for keeping records of dog ownership. Whether you're managing a small kennel, a neighborhood registry, or just organizing pet data, this tool helps you:
+Dog Register is a lightweight project written in swedish for keeping records of dog ownership. Whether you're managing a small kennel, a neighborhood registry, or just organizing pet data, this tool helps you:
 
 - 🐾 Track dogs and their owners
 
