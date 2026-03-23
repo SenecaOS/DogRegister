@@ -41,7 +41,7 @@ No more confusion at the dog park!
 
 ```bash
 javac *.java
-java -cp DogRegister
+java DogRegister
 ```
 ---
 
