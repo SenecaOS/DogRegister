@@ -13,11 +13,17 @@ Quickly look up who owns which dog
 No more confusion at the dog park.
 
 ✨ Features
+
 🐕 Add new dogs to the registry
+
 👤 Assign owners to each dog
+
 🔍 Search for dogs or owners
+
 📋 View all registered dogs and their owners
+
 🛠 Simple and extendable structure
+
 🚀 Getting Started
 
 1. Clone the repository
